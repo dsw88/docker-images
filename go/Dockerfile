@@ -10,3 +10,5 @@ RUN wget --quiet --no-check-certificate http://golang.org/dl/go1.3.linux-amd64.t
     rm go1.3.linux-amd64.tar.gz
 
 ENV PATH $PATH:/usr/local/go/bin
+ENV GOPATH /go
+ENV PATH $PATH:/go/bin
