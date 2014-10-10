@@ -6,7 +6,7 @@ You'll generally use this image as a base for other Docker images, such as your 
 image. Here's how to base off this image:
 
 ```
-FROM dsw88/ruby1.9
+FROM dsw88/go
 
 # Your Dockerfile contents here
 ```
